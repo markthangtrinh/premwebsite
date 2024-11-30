@@ -50,14 +50,14 @@
   }
   
   .illustration {
-    max-width: 50%; /* Shrinks on smaller screens */
-    max-height: 50%;
+    max-width: 70%; /* Significantly larger illustration */
+    max-height: 70%;
     margin-bottom: 1rem; /* Adds spacing below the illustration */
   }
   
   .tagline {
-    font-size: 1.5rem; /* Increased tagline font size */
-    line-height: 1.8; /* Added spacing between lines */
+    font-size: 1.5rem; /* Keeps the tagline font size */
+    line-height: 1.2; /* Reduced vertical spacing between lines */
     margin: 0;
     padding: 0;
     text-align: left; /* Aligns text to the left */
@@ -79,6 +79,10 @@
       max-width: 400px; /* Larger logo for tablet screens */
     }
   
+    .illustration {
+      max-width: 80%; /* Larger illustration for tablets */
+    }
+  
     .tagline {
       font-size: 1.8rem; /* Larger font size for tablets */
     }
@@ -90,12 +94,12 @@
     }
   
     .illustration {
-      max-width: 40%;
-      max-height: 40%;
+      max-width: 90%; /* Largest illustration for desktops */
     }
   
     .tagline {
       font-size: 2rem; /* Larger font size for desktops */
+      line-height: 1.1; /* Further reduced line height */
     }
   }
   
