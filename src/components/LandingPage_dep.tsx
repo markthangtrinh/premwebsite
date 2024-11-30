@@ -31,11 +31,10 @@ const LandingPage: React.FC = () => {
 
       {/* Tagline Section */}
       <div className="tagline-container">
-        <p className="tagline">
-          Imagine, events are connected, and{" "}
-          <span className="highlight">deep knowledge</span> is derived, where
-          could it lead you?
-        </p>
+      <p className="tagline">
+        Imagine, events are connected,</p> <p className="tagline">and{" "}
+        <span className="highlight">deep knowledge</span> is derived,</p> <p className="tagline">where
+        could it lead you?</p>
       </div>
     </div>
   );
