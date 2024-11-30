@@ -1,7 +1,7 @@
 import React from "react";
-import "./LandingPage.css";
+import "./LandingPage_dep.css";
 
-const LandingPage: React.FC = () => {
+const LandingPageDep: React.FC = () => {
   return (
     <div className="LandingPage">
       {/* Navigation Bar */}
@@ -40,4 +40,4 @@ const LandingPage: React.FC = () => {
   );
 };
 
-export default LandingPage;
+export default LandingPageDep;
