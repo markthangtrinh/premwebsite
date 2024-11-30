@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
-    margin-top: -8rem; /* Moves the content container much higher */
+    margin-top: -5rem; /* Default higher placement */
   }
   
   .illustration {
@@ -57,7 +57,7 @@
   
   .tagline {
     font-size: 1.5rem; /* Keeps the tagline font size */
-    line-height: 1; /* Reduces vertical spacing between lines to the minimum */
+    line-height: 1.05; /* Reduces vertical spacing between lines */
     margin: 0;
     padding: 0;
     text-align: left; /* Aligns text to the left */
@@ -83,9 +83,13 @@
       max-width: 60%; /* Larger illustration for tablets */
     }
   
+    .content-container {
+      margin-top: -7rem; /* Higher placement for tablets */
+    }
+  
     .tagline {
       font-size: 1.8rem; /* Larger font size for tablets */
-      line-height: 1; /* Maintain very tight line spacing */
+      line-height: 1.05; /* Maintain reduced line spacing */
     }
   }
   
@@ -98,9 +102,23 @@
       max-width: 70%; /* Larger illustration for desktops */
     }
   
+    .content-container {
+      margin-top: -10rem; /* Way higher placement for wider screens */
+    }
+  
     .tagline {
       font-size: 2rem; /* Larger font size for desktops */
-      line-height: 1; /* Keeps very tight line spacing for desktops */
+      line-height: 1.05; /* Keeps reduced line spacing for desktops */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .content-container {
+      margin-top: -2rem; /* Lower placement for narrower screens */
+    }
+  
+    .tagline {
+      font-size: 1.3rem; /* Slightly smaller tagline for narrower screens */
     }
   }
   
