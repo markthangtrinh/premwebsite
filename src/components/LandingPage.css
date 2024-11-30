@@ -59,11 +59,16 @@
   /* Tagline */
   .tagline {
     font-size: 1.5rem; /* Keeps the tagline font size */
-    line-height: 1; /* Makes the tagline lines much closer vertically */
+    line-height: 1.05; /* Reduces vertical spacing between lines */
     margin: 0;
     padding: 0;
     text-align: left; /* Aligns text to the left */
     white-space: pre-wrap; /* Ensures text wraps properly */
+  }
+  
+  .tagline p {
+    margin: 0; /* Removes vertical margin between <p> lines */
+    padding: 0; /* Removes padding between <p> lines */
   }
   
   .highlight {
@@ -76,7 +81,7 @@
   /* For tablets */
   @media (min-width: 768px) and (max-width: 1023px) {
     .content-container {
-      margin-top: -7rem; /* Higher placement for tablets */
+      margin-top: -8rem; /* Higher placement for tablets */
     }
   
     .logo {
@@ -89,6 +94,7 @@
   
     .tagline {
       font-size: 1.8rem; /* Larger font size for tablets */
+      line-height: 1.05; /* Maintain reduced line spacing */
     }
   }
   
@@ -108,7 +114,12 @@
   
     .tagline {
       font-size: 2rem; /* Larger font size for desktops */
-      line-height: 1; /* Keeps very tight line spacing for desktops */
+      line-height: 1.05; /* Keeps reduced line spacing for desktops */
+    }
+  
+    .tagline p {
+      margin: 0; /* Ensures <p> lines are tightly packed */
+      padding: 0;
     }
   }
   
