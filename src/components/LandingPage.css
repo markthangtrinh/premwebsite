@@ -1,21 +1,22 @@
 .LandingPage {
     display: flex;
     flex-direction: column;
-    justify-content: space-around; /* Adjusted to distribute space properly */
+    justify-content: flex-start; /* Arrange elements top-to-bottom */
     align-items: center;
-    height: 100vh; /* Ensures the content spans the full viewport height */
+    height: 100vh; /* Use full viewport height */
     text-align: center;
     font-family: Arial, sans-serif;
     color: #000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden; /* Prevents overflow */
+    overflow: hidden; /* Prevent overflow */
   }
   
   .nav-bar {
+    flex: 0 0 auto; /* Ensure the nav bar height doesn't grow */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     width: 100%;
     padding: 10px 20px;
@@ -34,8 +35,8 @@
   }
   
   .logo-container {
-    flex: 0 0 auto;
-    margin: 1rem;
+    flex: 0 0 auto; /* Ensure the logo height stays fixed */
+    margin: 1rem 0;
   }
   
   .logo {
@@ -44,7 +45,7 @@
   }
   
   .illustration-container {
-    flex: 1; /* Allows the illustration to take up proportional space */
+    flex: 1; /* Illustration takes up most of the space */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,14 +53,14 @@
   }
   
   .illustration {
-    max-width: 70%; /* Shrinks on larger screens */
+    max-width: 60%; /* Shrinks on larger screens */
     max-height: 50%;
   }
   
   .tagline-container {
-    flex: 0 0 auto; /* Ensures tagline is always displayed */
+    flex: 0 0 auto; /* Prevent the tagline from being squeezed */
     padding: 0 20px;
-    margin-bottom: 1rem; /* Prevents tagline from being pushed out of view */
+    margin-bottom: 1rem;
   }
   
   .tagline {
@@ -87,11 +88,11 @@
   
   @media (min-width: 1024px) {
     .logo {
-      max-width: 300px;
+      max-width: 250px;
     }
   
     .illustration {
-      max-width: 60%;
+      max-width: 50%;
       max-height: 40%;
     }
   
