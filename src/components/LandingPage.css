@@ -36,7 +36,7 @@
   }
   
   .logo {
-    max-width: 300px; /* Increased size of the logo */
+    max-width: 350px; /* Increased size of the logo */
     height: auto;
   }
   
@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
-    margin-top: -6rem; /* Moves the content container even higher */
+    margin-top: -8rem; /* Moves the content container higher up */
   }
   
   .illustration {
@@ -56,10 +56,11 @@
   }
   
   .tagline {
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.5rem; /* Increased tagline font size */
+    line-height: 1.8; /* Added spacing between lines */
     margin: 0;
-    padding: 0 1rem;
+    padding: 0;
+    text-align: left; /* Aligns text to the left */
     white-space: pre-wrap; /* Ensures text wraps properly */
   }
   
@@ -75,17 +76,17 @@
     }
   
     .logo {
-      max-width: 350px; /* Larger logo for tablet screens */
+      max-width: 400px; /* Larger logo for tablet screens */
     }
   
     .tagline {
-      font-size: 1.2rem;
+      font-size: 1.8rem; /* Larger font size for tablets */
     }
   }
   
   @media (min-width: 1024px) {
     .logo {
-      max-width: 400px; /* Even larger logo for desktop screens */
+      max-width: 450px; /* Even larger logo for desktop screens */
     }
   
     .illustration {
@@ -94,7 +95,7 @@
     }
   
     .tagline {
-      font-size: 1.5rem;
+      font-size: 2rem; /* Larger font size for desktops */
     }
   }
   

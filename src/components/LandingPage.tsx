@@ -27,11 +27,11 @@ const LandingPage: React.FC = () => {
           alt="Constellation Illustration"
           className="illustration"
         />
-        <p className="tagline">
-          Imagine, events are connected, and{" "}
-          <span className="highlight">deep knowledge</span> is derived, where
-          could it lead you?
-        </p>
+        <div className="tagline">
+          <p>Imagine, events are connected,</p>
+          <p>and <span className="highlight">deep knowledge</span> is derived,</p>
+          <p>where could it lead you?</p>
+        </div>
       </div>
     </div>
   );
