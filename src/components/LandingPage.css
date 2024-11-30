@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
-    margin-top: -5rem; /* Moves the content container much higher */
+    margin-top: -8rem; /* Moves the content container much higher */
   }
   
   .illustration {
@@ -57,7 +57,7 @@
   
   .tagline {
     font-size: 1.5rem; /* Keeps the tagline font size */
-    line-height: 1.05; /* Further reduced vertical spacing between lines */
+    line-height: 1; /* Reduces vertical spacing between lines to the minimum */
     margin: 0;
     padding: 0;
     text-align: left; /* Aligns text to the left */
@@ -85,7 +85,7 @@
   
     .tagline {
       font-size: 1.8rem; /* Larger font size for tablets */
-      line-height: 1.05; /* Keep reduced vertical spacing for tablets */
+      line-height: 1; /* Maintain very tight line spacing */
     }
   }
   
@@ -100,7 +100,7 @@
   
     .tagline {
       font-size: 2rem; /* Larger font size for desktops */
-      line-height: 1.05; /* Keeps reduced line spacing for desktops */
+      line-height: 1; /* Keeps very tight line spacing for desktops */
     }
   }
   
