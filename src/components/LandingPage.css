@@ -36,7 +36,7 @@
   }
   
   .logo {
-    max-width: 200px; /* Increased size of the logo */
+    max-width: 250px; /* Increased size of the logo */
     height: auto;
   }
   
@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
-    margin-top: -2rem; /* Moves the content container slightly higher */
+    margin-top: -4rem; /* Moves the content container higher up */
   }
   
   .illustration {
@@ -75,7 +75,7 @@
     }
   
     .logo {
-      max-width: 250px; /* Slightly larger for tablet screens */
+      max-width: 300px; /* Larger logo for tablet screens */
     }
   
     .tagline {
@@ -85,7 +85,7 @@
   
   @media (min-width: 1024px) {
     .logo {
-      max-width: 300px; /* Larger for desktop screens */
+      max-width: 350px; /* Even larger logo for desktop screens */
     }
   
     .illustration {
