@@ -1,20 +1,20 @@
 .LandingPage {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Arrange elements top-to-bottom */
+    justify-content: space-between; /* Ensures all sections are properly spaced */
     align-items: center;
-    height: 100vh; /* Use full viewport height */
+    height: 100vh; /* Use the full height of the viewport */
     text-align: center;
     font-family: Arial, sans-serif;
     color: #000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden;
   }
   
   .nav-bar {
-    flex: 0 0 auto; /* Ensure the nav bar height doesn't grow */
+    flex: 0 0 auto; /* Fixed size for the nav bar */
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -35,8 +35,8 @@
   }
   
   .logo-container {
-    flex: 0 0 auto; /* Ensure the logo height stays fixed */
-    margin: 1rem 0;
+    flex: 0 0 auto; /* Fixed size for the logo */
+    margin: 1rem;
   }
   
   .logo {
@@ -45,7 +45,7 @@
   }
   
   .illustration-container {
-    flex: 1; /* Illustration takes up most of the space */
+    flex: 1; /* Flexible space for the illustration */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,13 +53,13 @@
   }
   
   .illustration {
-    max-width: 60%; /* Shrinks on larger screens */
+    max-width: 50%; /* Shrinks as the viewport gets smaller */
     max-height: 50%;
   }
   
   .tagline-container {
-    flex: 0 0 auto; /* Prevent the tagline from being squeezed */
-    padding: 0 20px;
+    flex: 0 0 auto; /* Fixed size for the tagline */
+    padding: 1rem 20px;
     margin-bottom: 1rem;
   }
   
@@ -92,7 +92,7 @@
     }
   
     .illustration {
-      max-width: 50%;
+      max-width: 40%;
       max-height: 40%;
     }
   
