@@ -20,17 +20,13 @@ const LandingPage: React.FC = () => {
         />
       </div>
 
-      {/* Illustration Section */}
-      <div className="illustration-container">
+      {/* Content Section (Illustration + Tagline) */}
+      <div className="content-container">
         <img
           src={require("../assets/illustration.png")}
           alt="Constellation Illustration"
           className="illustration"
         />
-      </div>
-
-      {/* Tagline Section */}
-      <div className="tagline-container">
         <p className="tagline">
           Imagine, events are connected, and{" "}
           <span className="highlight">deep knowledge</span> is derived, where

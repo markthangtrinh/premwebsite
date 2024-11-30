@@ -1,23 +1,22 @@
 .LandingPage {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers all content vertically */
-    align-items: center;
-    height: 100vh; /* Ensures full height of the viewport */
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
+    height: 100vh; /* Full height of the viewport */
     text-align: center;
     font-family: Arial, sans-serif;
     color: #000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
   }
   
   .nav-bar {
     display: flex;
     justify-content: center; /* Centers the buttons */
     gap: 20px; /* Adds spacing between buttons */
-    margin-bottom: 2rem; /* Adds spacing below the nav bar */
+    margin-bottom: 1.5rem; /* Adds spacing below the nav bar */
   }
   
   .nav-bar button {
@@ -41,12 +40,12 @@
     height: auto;
   }
   
-  .illustration-container {
+  .content-container {
     display: flex;
-    flex-direction: column; /* Groups illustration and tagline */
-    align-items: center; /* Centers them horizontally */
+    flex-direction: column; /* Stacks illustration and tagline vertically */
     justify-content: center;
-    flex: 1; /* Allows the group to take flexible vertical space */
+    align-items: center; /* Centers them horizontally */
+    flex: 1; /* Allows this container to grow and fill available space */
   }
   
   .illustration {
@@ -55,14 +54,11 @@
     margin-bottom: 1rem; /* Adds spacing below the illustration */
   }
   
-  .tagline-container {
-    padding: 0 20px;
-  }
-  
   .tagline {
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
+    padding: 0 1rem;
     white-space: pre-wrap; /* Ensures text wraps properly */
   }
   
