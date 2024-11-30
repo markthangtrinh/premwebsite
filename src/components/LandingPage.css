@@ -36,7 +36,7 @@
   }
   
   .logo {
-    max-width: 300px; /* Adjusted logo size */
+    max-width: 350px; /* Adjusted logo size */
     height: auto;
   }
   
@@ -51,15 +51,15 @@
   
   /* Illustration */
   .illustration {
-    max-width: 50%; /* Keeps illustration size constant */
-    max-height: 50%;
+    max-width: 60%; /* Slightly larger illustration */
+    max-height: 60%;
     margin-bottom: 1rem; /* Adds spacing below the illustration */
   }
   
   /* Tagline */
   .tagline {
-    font-size: 1.5rem; /* Keeps the tagline font size */
-    line-height: 1; /* Reduces vertical spacing between lines */
+    font-size: 2rem; /* Larger font size for tagline */
+    line-height: 1.1; /* Reduced vertical spacing between lines */
     margin: 0;
     padding: 0;
     text-align: left; /* Aligns text to the left */
@@ -87,6 +87,15 @@
     .logo {
       max-width: 350px; /* Larger logo for tablets */
     }
+  
+    .illustration {
+      max-width: 70%; /* Larger illustration for tablets */
+    }
+  
+    .tagline {
+      font-size: 2.2rem; /* Larger font size for tablets */
+      line-height: 1.1; /* Maintain tight line spacing */
+    }
   }
   
   /* For wider screens */
@@ -97,6 +106,15 @@
   
     .logo {
       max-width: 400px; /* Larger logo for desktop screens */
+    }
+  
+    .illustration {
+      max-width: 80%; /* Larger illustration for desktops */
+    }
+  
+    .tagline {
+      font-size: 2.5rem; /* Larger font size for desktops */
+      line-height: 1.1; /* Keep tight line spacing for desktops */
     }
   }
   
