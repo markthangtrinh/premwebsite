@@ -36,7 +36,7 @@
   }
   
   .logo {
-    max-width: 300px; /* Adjusted logo size to ensure visibility */
+    max-width: 300px; /* Adjusted logo size */
     height: auto;
   }
   
@@ -50,14 +50,14 @@
   }
   
   .illustration {
-    max-width: 40%; /* Reduced size of the illustration */
-    max-height: 40%;
+    max-width: 50%; /* Increased size of the illustration */
+    max-height: 50%;
     margin-bottom: 1rem; /* Adds spacing below the illustration */
   }
   
   .tagline {
     font-size: 1.5rem; /* Keeps the tagline font size */
-    line-height: 1.2; /* Reduced vertical spacing between lines */
+    line-height: 1.1; /* Further reduced vertical spacing between lines */
     margin: 0;
     padding: 0;
     text-align: left; /* Aligns text to the left */
@@ -80,7 +80,7 @@
     }
   
     .illustration {
-      max-width: 30%; /* Smaller illustration for tablets */
+      max-width: 60%; /* Larger illustration for tablets */
     }
   
     .tagline {
@@ -94,12 +94,12 @@
     }
   
     .illustration {
-      max-width: 25%; /* Smaller illustration for desktops */
+      max-width: 70%; /* Larger illustration for desktops */
     }
   
     .tagline {
       font-size: 2rem; /* Larger font size for desktops */
-      line-height: 1.1; /* Reduced line height for desktops */
+      line-height: 1.1; /* Keeps reduced line spacing */
     }
   }
   
