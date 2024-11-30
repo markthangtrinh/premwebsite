@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
-    margin-top: -3rem; /* Default placement for smaller screens */
+    margin-top: -4rem; /* Default placement for smaller screens */
   }
   
   /* Illustration */
@@ -81,7 +81,7 @@
   /* For tablets */
   @media (min-width: 768px) and (max-width: 1023px) {
     .content-container {
-      margin-top: -7rem; /* Higher placement for tablets */
+      margin-top: -8rem; /* Higher placement for tablets */
     }
   
     .logo {
@@ -93,7 +93,7 @@
     }
   
     .tagline {
-      font-size: 2.2rem; /* Larger font size for tablets */
+      font-size: 1.8rem; /* Slightly smaller font size for tablets */
       line-height: 1.1; /* Maintain tight line spacing */
     }
   }
@@ -115,6 +115,22 @@
     .tagline {
       font-size: 2.5rem; /* Larger font size for desktops */
       line-height: 1.1; /* Keep tight line spacing for desktops */
+    }
+  }
+  
+  /* For narrower screens */
+  @media (max-width: 767px) {
+    .content-container {
+      margin-top: -2rem; /* Slightly lower placement for smaller screens */
+    }
+  
+    .tagline {
+      font-size: 1.3rem; /* Smaller font size for narrow screens */
+      line-height: 1.1; /* Keep lines tight for smaller screens */
+    }
+  
+    .illustration {
+      max-width: 50%; /* Keeps the illustration smaller for narrow screens */
     }
   }
   
