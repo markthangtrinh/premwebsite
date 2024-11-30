@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/premonitionengine.com/static/css/main.3af78dfa.css",
-    "main.js": "/premonitionengine.com/static/js/main.6704c26c.js",
-    "static/js/453.0b8b6be4.chunk.js": "/premonitionengine.com/static/js/453.0b8b6be4.chunk.js",
-    "static/media/illustration.png": "/premonitionengine.com/static/media/illustration.0febe73c2dd2bb812e8b.png",
-    "static/media/logo.png": "/premonitionengine.com/static/media/logo.34b88af6257177f344ed.png",
-    "index.html": "/premonitionengine.com/index.html",
-    "main.3af78dfa.css.map": "/premonitionengine.com/static/css/main.3af78dfa.css.map",
-    "main.6704c26c.js.map": "/premonitionengine.com/static/js/main.6704c26c.js.map",
-    "453.0b8b6be4.chunk.js.map": "/premonitionengine.com/static/js/453.0b8b6be4.chunk.js.map"
+    "main.css": "/static/css/main.3af78dfa.css",
+    "main.js": "/static/js/main.1d6dd1da.js",
+    "static/js/453.0b8b6be4.chunk.js": "/static/js/453.0b8b6be4.chunk.js",
+    "static/media/illustration.png": "/static/media/illustration.0febe73c2dd2bb812e8b.png",
+    "static/media/logo.png": "/static/media/logo.34b88af6257177f344ed.png",
+    "index.html": "/index.html",
+    "main.3af78dfa.css.map": "/static/css/main.3af78dfa.css.map",
+    "main.1d6dd1da.js.map": "/static/js/main.1d6dd1da.js.map",
+    "453.0b8b6be4.chunk.js.map": "/static/js/453.0b8b6be4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3af78dfa.css",
-    "static/js/main.6704c26c.js"
+    "static/js/main.1d6dd1da.js"
   ]
 }
