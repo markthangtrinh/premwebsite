@@ -1,8 +1,8 @@
 .LandingPage {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers the content vertically */
-    align-items: center; /* Centers the content horizontally */
+    justify-content: flex-start; /* Align content to start to keep navbar and logo visible */
+    align-items: center; /* Centers content horizontally */
     height: 100vh; /* Full height of the viewport */
     text-align: center;
     font-family: Arial, sans-serif;
@@ -36,7 +36,7 @@
   }
   
   .logo {
-    max-width: 350px; /* Increased size of the logo */
+    max-width: 300px; /* Adjusted logo size to ensure visibility */
     height: auto;
   }
   
@@ -46,12 +46,12 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
-    margin-top: -8rem; /* Moves the content container higher up */
+    margin-top: 2rem; /* Adjusted margin to ensure enough space for navbar and logo */
   }
   
   .illustration {
-    max-width: 70%; /* Significantly larger illustration */
-    max-height: 70%;
+    max-width: 40%; /* Reduced size of the illustration */
+    max-height: 40%;
     margin-bottom: 1rem; /* Adds spacing below the illustration */
   }
   
@@ -76,11 +76,11 @@
     }
   
     .logo {
-      max-width: 400px; /* Larger logo for tablet screens */
+      max-width: 350px; /* Larger logo for tablet screens */
     }
   
     .illustration {
-      max-width: 80%; /* Larger illustration for tablets */
+      max-width: 30%; /* Smaller illustration for tablets */
     }
   
     .tagline {
@@ -90,16 +90,16 @@
   
   @media (min-width: 1024px) {
     .logo {
-      max-width: 450px; /* Even larger logo for desktop screens */
+      max-width: 400px; /* Larger logo for desktop screens */
     }
   
     .illustration {
-      max-width: 90%; /* Largest illustration for desktops */
+      max-width: 25%; /* Smaller illustration for desktops */
     }
   
     .tagline {
       font-size: 2rem; /* Larger font size for desktops */
-      line-height: 1.1; /* Further reduced line height */
+      line-height: 1.1; /* Reduced line height for desktops */
     }
   }
   
