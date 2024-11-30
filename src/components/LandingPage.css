@@ -36,7 +36,7 @@
   }
   
   .logo {
-    max-width: 150px;
+    max-width: 200px; /* Increased size of the logo */
     height: auto;
   }
   
@@ -46,6 +46,7 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
+    margin-top: -2rem; /* Moves the content container slightly higher */
   }
   
   .illustration {
@@ -74,7 +75,7 @@
     }
   
     .logo {
-      max-width: 200px;
+      max-width: 250px; /* Slightly larger for tablet screens */
     }
   
     .tagline {
@@ -84,7 +85,7 @@
   
   @media (min-width: 1024px) {
     .logo {
-      max-width: 250px;
+      max-width: 300px; /* Larger for desktop screens */
     }
   
     .illustration {
