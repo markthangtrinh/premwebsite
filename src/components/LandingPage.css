@@ -46,18 +46,18 @@
     justify-content: center;
     align-items: center; /* Centers them horizontally */
     flex: 1; /* Allows this container to grow and fill available space */
-    margin-top: 2rem; /* Adjusted margin to ensure enough space for navbar and logo */
+    margin-top: -5rem; /* Moves the content container much higher */
   }
   
   .illustration {
-    max-width: 50%; /* Increased size of the illustration */
+    max-width: 50%; /* Maintains illustration size */
     max-height: 50%;
     margin-bottom: 1rem; /* Adds spacing below the illustration */
   }
   
   .tagline {
     font-size: 1.5rem; /* Keeps the tagline font size */
-    line-height: 1.1; /* Further reduced vertical spacing between lines */
+    line-height: 1.05; /* Further reduced vertical spacing between lines */
     margin: 0;
     padding: 0;
     text-align: left; /* Aligns text to the left */
@@ -85,6 +85,7 @@
   
     .tagline {
       font-size: 1.8rem; /* Larger font size for tablets */
+      line-height: 1.05; /* Keep reduced vertical spacing for tablets */
     }
   }
   
@@ -99,7 +100,7 @@
   
     .tagline {
       font-size: 2rem; /* Larger font size for desktops */
-      line-height: 1.1; /* Keeps reduced line spacing */
+      line-height: 1.05; /* Keeps reduced line spacing for desktops */
     }
   }
   
